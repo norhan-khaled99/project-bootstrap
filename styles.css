@@ -1,0 +1,13 @@
+nav{
+background-color:#FFFFFF;
+}
+.nav-link{
+color: green;
+
+}
+.nav-link:hover{
+color: black;
+}
+.card-body:hover{
+cursor: pointer;
+}
