@@ -9,12 +9,14 @@ body{
 nav{
 background-color:white ;
 color :black;
+
 }
+
 .nav-link{
 color: green;
 font-size: 1.5rem;
-
 }
+
 .nav-link:hover{
 color: black;
 }
@@ -39,9 +41,6 @@ transform: scale(1.05) translate3d(0,0,0);
 background-color: black;
 color: white;
 }
-
-
-
 
 .section{
     padding: 5.5rem 0 1rem;
@@ -280,7 +279,6 @@ footer .content .link-boxes .box{
 }
 .bg-success::before{
   top: 0px;
-  /* background-color: inherit !important; */
 }
 footer .bottom-details{
   width: 100%;
