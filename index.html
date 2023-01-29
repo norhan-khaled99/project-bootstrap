@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/font-awesome.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
@@ -38,6 +35,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#contat us">contact us</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-moon" onclick="myFunction()"></i></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -49,7 +49,7 @@
     <div class="row justify-content-center align-items-center">
       <div class="col-12 col-xl-6">
         <div>
-          <h1 class="w3-center w3-animate-top">Plants will make <br> your life better</h1>
+          <h1 class="w3-center ">Plants will make <br> your life better</h1>
           <h6>Create incredible plant design for your offices or apastaments. 
             Add fresness to your new ideas.</h6>
           <button type="button" class="btn btn-success btn-lg">Explore</button>
@@ -62,13 +62,13 @@
       </div>     
     </div>
   </section>
-    
+  
     <!--second section-->
 <section id="about">
 <div class="row justify-content-center align-items-center mb-3">
   <div class="col-12 col-xl-6">
     <div>
-      <img src="images/about.png" class="img-fluid w-100" alt="...">
+      <img src="images/about.png" class="img-fluid w-100 w3-center w3-animate-" alt="...">
    </div>
   </div>
   <div class="col-12 col-xl-6 text-start">
@@ -96,7 +96,7 @@
       </label>
     </div>  
     
-    <div class="form-check">
+  <div class="form-check">
       <input class="form-check-input bg-success" type="checkbox" value="" id="flexCheckChecked" >
       <label class="form-check-label fs-5" for="flexCheckChecked">
         100% money back guaranteed.
@@ -112,7 +112,7 @@
 <section class="container rounded-4 bg-success text-center mb-5">
 <h1 class="mb-3 mt-5">Steps to start your <br> plants off right</h1>
 <div class="row justify-content-around ">
-<div class="card col-xl-3 col-md-5 col-10 mb-5" >
+<div class="card col-xl-3 col-md-5 col-10 mb-5 divCard" >
   <div class="card-body">
     <i class="bi bi-1-square-fill" style="color:green"></i>
     <h3 class="card-title">choose Plant</h3>
@@ -120,7 +120,7 @@
   </div>
  </div>
  
- <div class="card col-xl-3 col-md-5 col-10 mb-5">
+ <div class="card col-xl-3 col-md-5 col-10 mb-5 divCard">
   <div class="card-body">
     <i class="bi bi-2-square-fill" style = "color:green"></i>
     <h3 class="card-title">Make an order</h3>
@@ -128,19 +128,291 @@
   </div>
 </div>
 
-<div class="card col-xl-3 col-md-5 col-10 mb-5">
+<div class="card col-xl-3 col-md-5 col-10 mb-5 divCard">
   <div class="card-body">
-    <i class="bi bi-3-square-fill" style = "color:green"></i>
+    <i class="bi bi-3-square-fill" style = "color:green;"></i>
     <h3 class="card-title">our plants deliverd</h3>
     <p class="card-text">Our delivery process is easy, you receive the plant direct to your door.</p>
-  
   </div>
 </div>
 </div>  
 </section>
 </div>   
+<!--//////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section class="product section container text-center" id="products">
+  <h2 class="section__title-center">
+    <div class="w3-container">
+      <h1 class="w3-center w3-animate-left"> check out our <br> products</h1>
+    </div>
 
 
+
+  </h2>
+  <p class="product__description">
+    here are some selected plants from our showroom, all are in excellent shape and has a long
+    life spoon. Buy and enjoy best quality.
+  </p>
+
+  <div class="product__container grid">
+    <article class="product__card">
+      <div class="product__circle">
+        <img src="images/product1.png" alt="" class="product__img" style="width:40%;">
+        <h3 class="product__title">Canti Plant</h3>
+        <span class="product__price">$29.99</span>
+        <button class="button--flex product__button">
+          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+        </button>
+      </div>
+    </article>
+
+    <article class="product__card">
+      <div class="product__circle">
+        <img src="images/product2.png" alt="" class="product__img" style="width:40%;">
+        <h3 class="product__title">Cactus Plant</h3>
+        <span class="product__price">$13.99</span>
+        <button class="button--flex product__button">
+          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+        </button>
+      </div>
+    </article>
+
+    <article class="product__card">
+      <div class="product__circle">
+        <img src="images/product3.png" alt="" class="product__img" style="width:40%;">
+        <h3 class="product__title">Aloe vera Plant</h3>
+        <span class="product__price">$40.00</span>
+        <button class="button--flex product__button">
+          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+        </button>
+      </div>
+    </article>
+
+    <article class="product__card">
+      <div class="product__circle">
+        <img src="images/product4.png" alt="" class="product__img" style="width:40%;">
+        <h3 class="product__title">Succulent Plant</h3>
+        <span class="product__price">$9.99</span>
+        <button class="button--flex product__button">
+          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+        </button>
+      </div>
+    </article>
+
+    <article class="product__card">
+      <div class="product__circle">
+        <img src="images/product5.png" alt="" class="product__img" style="width:40%;">
+        <h3 class="product__title">Green Plant</h3>
+        <span class="product__price">$7.05</span>
+        <button class="button--flex product__button">
+          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+        </button>
+      </div>
+    </article>
+
+    <article class="product__card">
+      <div class="product__circle">
+        <img src="images/product6.png" alt="" class="product__img" style="width:40%;">
+        <h3 class="product__title">Green Plant</h3>
+        <span class="product__price">$24.99</span>
+        <button class="button--flex product__button">
+          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+        </button>
+      </div>
+    </article>
+
+  </div>
+</section><br><br><br>
+<!-- ================================================Question==================================================== -->
+<div class="container">
+
+  <div class="container text-center">
+    <h2 class="titleOfQuestions">
+      <div class="w3-container">
+        <h1 class="w3-center w3-animate-left"> Some common questions <br> were often asked</h1>
+      </div>
+
+    </h2><br>
+  </div>
+  <div id="accordion ">
+
+    <div class="card mb-2">
+      <div class="card-header">
+        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+          <p class="text-Question">My flowers are falling off or dying?</p>
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+        <div class="card-body">
+          Plants are easy way to add color energy and transform your
+          space but which planet is for you. Choosing the right plant
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-2">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+          <p class="text-Question">What causes leaves to become pale?</p>
+        </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Plants are easy way to add color energy and transform your
+          space but which planet is for you. Choosing the right plant.
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-2">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+          <p class="text-Question">What causes brown crispy leaves?</p>
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Plants are easy way to add color energy and transform your
+          space but which planet is for you. Choosing the right plant.
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-2">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+          <p class="text-Question">How do i choose a plant?</p>
+        </a>
+      </div>
+      <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Plants are easy way to add color energy and transform your
+          space but which planet is for you. Choosing the right plant.
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card mb-2">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+          <p class="text-Question">How do I change the pots?</p>
+        </a>
+      </div>
+      <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Plants are easy way to add color energy and transform your
+          space but which planet is for you. Choosing the right plant.
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card mb-2">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSix">
+          <p class="text-Question">Why are gnats flying around my plant?</p>
+        </a>
+      </div>
+      <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Plants are easy way to add color energy and transform your
+          space but which planet is for you. Choosing the right plant.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div><br><br><br><br><br><br><br>
+<!-- =============================================Scroll =============================================== -->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<!-- ==============================================footer============================================== -->
+<footer class="bg-success">
+  <div class="content">
+    <div class="top">
+      <div class="logo-details">
+        <i class="fa-solid fa-leaf"></i>
+        <span class="logo_name">PLANTEX</span>
+      </div>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="link-boxes">
+      <ul class="box">
+        <li class="link_name">Company</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Get started</a></li>
+      </ul>
+      <ul class="box">
+        <li class="link_name">Services</li>
+        <li><a href="#">buy Plants </a></li>
+        <li><a href="#">show Plants</a></li>
+        <li><a href="#">PLANTEX services</a></li>
+        <li><a href="#">Types of plants</a></li>
+      </ul>
+      <ul class="box">
+        <li class="link_name">Account</li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">My account</a></li>
+        <li><a href="#">Prefrences</a></li>
+        <li><a href="#">Purchase</a></li>
+      </ul>
+      <ul class="box">
+        <li class="link_name">Our Address</li>
+        <li><a href="#">1234 - Peru</a></li>
+        <li><a href="#">La Libertad - 43210</a></li>
+        <li><a href="#">123-456-789</a></li>
+        <li><a href="#">Belgium</a></li>
+      </ul>
+      <ul class="box input-box">
+        <li class="link_name">Subscribe</li>
+        <li><input type="text" placeholder="Enter your email"></li>
+        <li><input type="button" value="Subscribe"></li>
+      </ul>
+    </div>
+  </div>
+  <div class="bottom-details">
+    <div class="bottom_text">
+      <span class="copyright_text">Copyright © 2021 <a href="#">PLANTEX.</a>All rights reserved</span>
+      <span class="policy_terms">
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms & condition</a>
+
+      </span>
+    </div>
+
+  </div>
+  <section class="sectionOfWave">
+
+    <div class="wave"></div>
+  </section>
+</footer>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+   var cards = document.querySelectorAll(".divCard");
+   for(var i=0;i<cards.length;i++)
+   {
+    cards[i].style.backgroundColor = "#000";
+    cards[i].style.color = "#fff";
+   }
+   console.log(cards);
+}
+
+</script>
 <script src="https://kit.fontawesome.com/3d6560076e.js" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
 </body>
 </html>
